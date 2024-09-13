@@ -19,14 +19,16 @@ The Hacker News Top Stories App is a simple web application that fetches and dis
 - **API**: Hacker News API
 
 ## Getting Started
-
-[Uploading Screen Recording - Made with FlexClip.webm…]()
+![image](https://github.com/user-attachments/assets/575f1f92-1afd-4f42-a0fb-de95e62805e8)
+![Screenshot 2024-09-13 200700](https://github.com/user-attachments/assets/4110d5c5-f767-40a8-94a3-1d45a2556e0c)
 
 ### Prerequisites
 
 - Node.js and npm (for React frontend)
-  
+  ![Screenshot 2024-09-13 200822](https://github.com/user-attachments/assets/68863f09-3f75-4358-ab41-615026cdbd0f)
+
 - Python and pip (for FastAPI backend)
+  ![image](https://github.com/user-attachments/assets/9af0944e-6598-4c60-85a0-4d180a161c47)
 
 ### Backend Setup
 
@@ -39,6 +41,7 @@ The Hacker News Top Stories App is a simple web application that fetches and dis
     ```bash
     uvicorn main:app --reload
     ```
+  ![image](https://github.com/user-attachments/assets/e13e5578-9187-47d6-b83c-23802b188e0f)
 
    The backend server will be running at `http://localhost:8000`.
 
@@ -46,8 +49,9 @@ The Hacker News Top Stories App is a simple web application that fetches and dis
 
 1. Navigate to the frontend directory:
     ```bash
-    cd ../frontend
+    cd hackernews-frontend
     ```
+  ![image](https://github.com/user-attachments/assets/c2fa2522-d131-4820-ad8c-1a14aae74e1d)
 
 2. Install the required Node.js packages:
     ```bash
@@ -64,10 +68,12 @@ The Hacker News Top Stories App is a simple web application that fetches and dis
 ### API Endpoints
 
 - **GET /top-stories**: Fetches the top 10 stories from Hacker News. 
+![Screenshot 2024-09-13 220752](https://github.com/user-attachments/assets/83d05323-ce7e-47fb-97c3-1822f5453a7f)
 
 ### Error Handling
 
 The application includes error handling for network issues and API request failures, displaying appropriate messages to the user.
+![image](https://github.com/user-attachments/assets/72bfb55c-2668-40c0-b865-671b30734d79)
 
 ## Bonus Features
 
