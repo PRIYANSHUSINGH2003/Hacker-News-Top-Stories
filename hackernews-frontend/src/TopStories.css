@@ -1,0 +1,71 @@
+/* TopStories.css */
+
+.top-stories-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+.title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+.stories-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.story-item {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.story-item:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.story-title {
+    font-size: 1.2rem;
+    color: #007bff;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.story-title:hover {
+    text-decoration: underline;
+}
+
+.story-details {
+    color: #555;
+    font-size: 0.9rem;
+}
+
+.story-author,
+.story-score,
+.story-time {
+    margin: 5px 0;
+}
+
+.error-message {
+    color: #dc3545;
+    text-align: center;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+.loading {
+    text-align: center;
+    font-size: 1.1rem;
+    color: #007bff;
+}
